@@ -1,4 +1,27 @@
-html {
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
+*{
+   margin: 0;
+   padding: 0;
   }
+.squares {
+  border: black 1px solid;
+  width: 40px;
+  height: 40px;
+  
+}
+#container {
+  display: grid;
+  grid-template-columns: repeat(16, 1fr);
+  grid-template-rows: repeat(16, 1fr);
+  gap: 0px;
+  width: min-content;
+  height: min-content;
+}
+.pinky {
+  background-color: pink;
+  border: solid 1px black;
+  width: fit-content;
+  height: fit-content;
+}
+.colors {
+  background-color: white;
+}
