@@ -16,6 +16,9 @@ header {
     margin-inline: 2rem;
     width: 100vw;
 }
+#title {
+  color: rgb(148, 44, 44);
+}
 #container {
   justify-content: center;
   justify-self: center;
