@@ -8,6 +8,7 @@ body {
     height: 100vh;
     width: 100vw;
     padding: 4rem;
+    background-color: cornsilk;
 }
 header {
     display: flex;
@@ -26,7 +27,9 @@ header {
   background-color: black
 }
 .btn {
-  max-height: 2rem;
+  width: 6rem;
+
+  max-height: 3rem;
   box-shadow: 5px 5px 10px black;
 }
 nav {
