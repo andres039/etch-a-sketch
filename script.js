@@ -12,7 +12,7 @@ window.onload = drawGrid(16)
     grid-template-columns: repeat(${x}, 1.3em);`)
     divs.setAttribute(
       'style',
-      'background-color: wheat; border: 1px solid black'
+      'background-color: wheat; border: 1px solid black; box-shadow: 5px 5px 5px black;'
     );
     divs.classList = 'div';
     divs.id = 'div';
