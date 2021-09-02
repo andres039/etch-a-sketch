@@ -3,42 +3,44 @@
   box-sizing: border-box;
 }
 body {
-    display: flex;
-    flex-flow: row wrap;
+    display: grid;
+    grid-template-rows:  1fr 2fr 5fr;
     height: 100vh;
     width: 100vw;
-    padding: 4rem;
     background-color: cornsilk;
 }
 header {
     display: flex;
     justify-content: center;
     margin-inline: 2rem;
+    padding: 2rem;
     width: 100vw;
+    max-height: 0.3rem;
 }
 #title {
   color: rgb(148, 44, 44);
+  
 }
 #container {
-  justify-content: center;
-  justify-self: center;
-    /* height: 60vh;*/
-    width: 100vw; 
   display: grid;
+  justify-content: center;
+  margin-inline: auto;
 }
 .colored {
   background-color: black
 }
 .btn {
   width: 6rem;
-
   max-height: 3rem;
+  font-size: 1.3rem;
+  font-weight: 700;
   box-shadow: 5px 5px 10px black;
 }
 nav {
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
+  margin-inline: auto;
   gap: 2rem;
-  width: 100vw;
+  width: 50vw;
 }

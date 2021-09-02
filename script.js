@@ -8,8 +8,8 @@ window.onload = drawGrid(16)
   function drawGrid(x) {
   for (let i = 0; i < (x ** 2); i++) {
     const divs = document.createElement('div');
-    container.setAttribute('style', `grid-template-rows: repeat(${x}, 1.3em);
-    grid-template-columns: repeat(${x}, 1.3em);`)
+    container.setAttribute('style', `max-height: 30%; max-width: 30%; grid-template-rows: repeat(${x}, 1rem);
+    grid-template-columns: repeat(${x}, 1rem);`)
     divs.setAttribute(
       'style',
       'background-color: wheat; border: 1px solid black; box-shadow: 5px 5px 5px black;'
